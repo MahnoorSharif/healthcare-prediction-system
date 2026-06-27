@@ -97,3 +97,7 @@ Opens at: http://localhost:5173
 | 📊 EDA | All visualizations for both datasets |
 | 📈 Model Metrics | Metrics table, confusion matrices, ROC curves, feature importance |
 | 🔵 PCA | Explained variance bar, 2D scatter by class |
+
+## 🌐 Multilingual Support
+Supports **English and Urdu** with full RTL layout.
+Toggle language from the top navigation bar.
