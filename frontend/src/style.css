@@ -984,3 +984,69 @@ select:focus { outline: none; border-color: var(--blue); }
   .app-nav { grid-template-columns: repeat(2, 1fr); }
   .summary-strip { grid-template-columns: 1fr; }
 }
+
+/* ──── Urdu / RTL ──── */
+html[dir='rtl'] {
+  font-family: 'Noto Sans Arabic', 'Segoe UI', Tahoma, sans-serif;
+}
+
+html[dir='rtl'] .brand,
+html[dir='rtl'] .app-topbar,
+html[dir='rtl'] .hero-panel,
+html[dir='rtl'] .card-heading,
+html[dir='rtl'] .field-row,
+html[dir='rtl'] .history-card-main,
+html[dir='rtl'] .analysis-heading,
+html[dir='rtl'] .welcome-card {
+  text-align: right;
+}
+
+html[dir='rtl'] .hero-panel > div:first-child {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir='rtl'] .hero-panel h1,
+html[dir='rtl'] .welcome-title,
+html[dir='rtl'] .analysis-heading h2 {
+  font-family: 'Noto Sans Arabic', 'Segoe UI', sans-serif;
+  font-weight: 800;
+  line-height: 1.75;
+  letter-spacing: 0;
+  word-spacing: normal;
+  unicode-bidi: plaintext;
+}
+
+html[dir='rtl'] .hero-panel h1 {
+  font-size: clamp(1.85rem, 3.6vw, 3.2rem);
+  max-width: 100%;
+}
+
+html[dir='rtl'] .hero-panel .eyebrow,
+html[dir='rtl'] .eyebrow {
+  text-transform: none;
+  letter-spacing: 0;
+  line-height: 1.6;
+}
+
+html[dir='rtl'] .topbar-right,
+html[dir='rtl'] .hero-mini-stats,
+html[dir='rtl'] .step-progress,
+html[dir='rtl'] .visual-filter-tabs,
+html[dir='rtl'] .history-filter-tabs {
+  direction: rtl;
+}
+
+html[dir='rtl'] .field-row {
+  direction: rtl;
+}
+
+html[dir='rtl'] .nav-text,
+html[dir='rtl'] .nav-desc {
+  text-align: center;
+}
+
+html[dir='rtl'] th,
+html[dir='rtl'] td {
+  text-align: right;
+}
